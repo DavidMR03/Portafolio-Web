@@ -163,12 +163,15 @@
         @media (max-width: 768px) {
           .hide-mobile { display: none; }
           .exp-card { padding: 20px 18px; }
-
           .about-image {
           height: 300px;
           max-width: 100%;
         }
+        .hero-image-container {
+        order: -1;
+        margin-bottom: 8px;
         }
+      }
 
         .hero-image {
         width: 220px;
