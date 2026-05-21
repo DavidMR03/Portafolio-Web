@@ -49,9 +49,9 @@ export default function Hero() {
             </div>
           </div>
 
-          <div style={{ flex: "0 0 auto", display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}> 
-            <img src={heroImage} alt="David Morales" className="hero-image hero-anim" style={{ marginTop: "-30px" }}/>
-              <div className="inter" style={{fontSize: 12, color: "#475569", textAlign: "center", maxWidth: 180,}}>
+              <div style={{ flex: "0 0 auto", display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
+                <img src={heroImage} alt="David Morales" className="hero-image hero-anim" />
+                <div className="inter" style={{fontSize: 12, color: "#475569", textAlign: "center", maxWidth: 180,}}>
                 </div>
               </div>
           </div>

@@ -7,7 +7,7 @@ export default function About() {
         <div className="section-title">Sobre mí</div>
         <div className="divider"></div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40, alignItems: "start" }}>
+          <div className="about-grid">
           <div>
             {/* Foto grande */}
             <img src={aboutImage} alt="Sobre mí" className="about-image" style={{ marginBottom: 18 }} />
@@ -33,7 +33,7 @@ export default function About() {
 
             {/* Habilidades blandas */}
             <h4 className="syne" style={{ fontSize: 16, fontWeight: 700, color: "#f1f5f9", marginBottom: 14 }}>Habilidades personales</h4>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+            <div className="soft-skills-grid">
               {SOFT_SKILLS.map((s, i) => (
                 <div key={i} className="soft-card">
                   <span style={{ fontSize: 18 }}>{s.icon}</span>
