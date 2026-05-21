@@ -220,8 +220,8 @@ a:hover { text-decoration: underline; }
   .exp-card { padding: 20px 18px; }
 
   .about-image {
-    height: 220px;
-    width: 260px;
+    height: 250px;
+    max-width: 100%;
   }
 
   .about-grid {
